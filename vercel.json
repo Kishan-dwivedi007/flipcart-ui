@@ -1,0 +1,9 @@
+# netlify.toml
+{
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
+    ]
+}
