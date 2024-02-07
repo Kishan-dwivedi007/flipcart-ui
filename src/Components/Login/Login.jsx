@@ -52,7 +52,7 @@ const Login = () => {
           email: email,
           password: password,
         };
-        await fetch("http://localhost:3000/api/v1/user/login", {
+        await fetch("https://flipkart-server-production.up.railway.app/api/v1/user/login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
