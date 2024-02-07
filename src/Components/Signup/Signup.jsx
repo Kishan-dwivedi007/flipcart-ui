@@ -62,7 +62,7 @@ const Signup = () => {
           email: email || null,
           password: password,
         };
-        await fetch("http://localhost:3000/api/v1/user/signup", {
+        await fetch("https://flipkart-server-production.up.railway.app/api/v1/user/signup", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
