@@ -16,7 +16,7 @@ const ForgotPass = () => {
       oldPassword: oldPass,
       newPassword: newPass,
     };
-    await fetch("https://flipkart-server-production.up.railway.app/api/v1/user/forgot", {
+    await fetch("https://flipkart-server-rho.vercel.app/api/v1/user/forgot", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
