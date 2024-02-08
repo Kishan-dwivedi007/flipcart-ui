@@ -52,7 +52,7 @@ const Login = () => {
           email: email,
           password: password,
         };
-        await fetch("https://flipkart-server-production.up.railway.app/api/v1/user/login", {
+        await fetch("https://flipkart-server-rho.vercel.app/api/v1/user/login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
